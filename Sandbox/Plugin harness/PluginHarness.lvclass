@@ -21,7 +21,6 @@
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="_IconEditorInterface.lvlib:_IconEditorInterface.lvclass" Type="Parent" URL="../../Custom plugin interface/_IconEditorInterface.lvclass"/>
 		<Item Name="IconEditorInterface.lvlibp:IconEditorInterface.lvclass" Type="Parent" URL="../../../resource/plugins/IconEditorInterface.lvlibp/Custom plugin interface/IconEditorInterface.lvclass"/>
 	</Item>
 	<Item Name="PluginHarness.ctl" Type="Class Private Data" URL="PluginHarness.ctl">

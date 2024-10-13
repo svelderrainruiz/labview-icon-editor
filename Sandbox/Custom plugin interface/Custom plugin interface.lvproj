@@ -29,7 +29,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/git/labview-icon-editor/resource/plugins</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{80DE016E-85A1-4D5E-9DD5-385E39767F4F}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IconEditorInterface.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/git/labview-icon-editor/resource/plugins/IconEditorInterface.lvlibp</Property>

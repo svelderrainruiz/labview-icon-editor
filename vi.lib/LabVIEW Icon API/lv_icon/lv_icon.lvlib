@@ -60,5 +60,6 @@
 		<Item Name="Write Icon Data to Library.vi" Type="VI" URL="../Support/Write Icon Data to Library.vi"/>
 		<Item Name="Write Icon Data to VI.vi" Type="VI" URL="../Support/Write Icon Data to VI.vi"/>
 	</Item>
+	<Item Name="Execute action.vi" Type="VI" URL="../Execute action.vi"/>
 	<Item Name="lv_icon.vi" Type="VI" URL="../../../../resource/plugins/lv_icon.vi"/>
 </Library>

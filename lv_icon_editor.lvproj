@@ -302,10 +302,10 @@
 				<Item Name="User Dialogs" Type="Folder">
 					<Item Name="IconEditorSettings.vi" Type="VI" URL="../resource/plugins/NIIconEditor/User Dialogs/IconEditorSettings.vi"/>
 				</Item>
-				<Item Name="Delete Icon Editor Source Files.vi" Type="VI" URL="/&lt;resource&gt;/plugins/NIIconEditor/Delete Icon Editor Source Files.vi"/>
+				<Item Name="Delete Icon Editor Source Files.vi" Type="VI" URL="../resource/plugins/NIIconEditor/Delete Icon Editor Source Files.vi"/>
 				<Item Name="Get Callers of Icon Editor Packed Library.vi" Type="VI" URL="/&lt;resource&gt;/plugins/NIIconEditor/Get Callers of Icon Editor Packed Library.vi"/>
 				<Item Name="Get Callers of Icon Editor Source Files.vi" Type="VI" URL="/&lt;resource&gt;/plugins/NIIconEditor/Get Callers of Icon Editor Source Files.vi"/>
-				<Item Name="Get Icon Editor Source Paths.vi" Type="VI" URL="/&lt;resource&gt;/plugins/NIIconEditor/Get Icon Editor Source Paths.vi"/>
+				<Item Name="Get Icon Editor Source Paths.vi" Type="VI" URL="../resource/plugins/NIIconEditor/Get Icon Editor Source Paths.vi"/>
 				<Item Name="Launch Icon Editor From String.vi" Type="VI" URL="/&lt;resource&gt;/plugins/NIIconEditor/Launch Icon Editor From String.vi"/>
 			</Item>
 			<Item Name="lv_icon.lvlib" Type="Library" URL="../vi.lib/LabVIEW Icon API/lv_icon/lv_icon.lvlib"/>
@@ -612,7 +612,6 @@
 				<Item Name="7842910552F72B45FFAA5B67DFEBCBC5Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/7842910552F72B45FFAA5B67DFEBCBC5Strip Path Extension - Path__ogtk.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Librarian Get Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Get Info.vi"/>
-				<Item Name="Execute action.vi" Type="VI" URL="../vi.lib/LabVIEW Icon API/lv_icon/Execute action.vi"/>
 			</Item>
 			<Item Name="Add dev dist if present.vi" Type="VI" URL="../Tooling/support/Add dev dist if present.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -654,7 +653,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Tooling/Pre Build Icon Editor PPL.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C699D48A-6A0A-4A55-BF6A-D6FC254001CD}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">lv_icon.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../resource/plugins/lv_icon.lvlibp</Property>

@@ -14,11 +14,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="PluginHarness.lvlib" Type="Library" URL="../PluginHarness.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-			</Item>
-			<Item Name="_IconEditorInterface.lvlib" Type="Library" URL="../../Custom plugin interface/_IconEditorInterface.lvlib"/>
 			<Item Name="IconEditorInterface.lvlibp" Type="LVLibp" URL="../../../resource/plugins/IconEditorInterface.lvlibp">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../resource/plugins/IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../resource/plugins/IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
@@ -36,7 +31,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/git/labview-icon-editor/resource/plugins</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D6180407-B3BD-45DB-B68D-3A0CAF2E8A93}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PluginHarness.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/git/labview-icon-editor/resource/plugins/PluginHarness.lvlibp</Property>
