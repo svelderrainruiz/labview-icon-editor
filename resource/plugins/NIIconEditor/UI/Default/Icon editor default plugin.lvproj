@@ -250,16 +250,6 @@
 			<Item Name="Icon Editor Invoker Type.ctl" Type="VI" URL="../../../../Icon Editor Invoker Type.ctl"/>
 			<Item Name="Icon Initialization.vi" Type="VI" URL="../../../Miscellaneous/Icon Editor/Icon Initialization.vi"/>
 			<Item Name="IconEditorInterface.lvlib" Type="Library" URL="../../Interface class/IconEditorInterface.lvlib"/>
-			<Item Name="IconEditorInterface.lvlibp" Type="LVLibp" URL="../../../../IconEditorInterface.lvlibp">
-				<Item Name="_IconEditorInterface.lvclass" Type="LVClass" URL="../../../../IconEditorInterface.lvlibp/_IconEditorInterface.lvclass"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
-				<Item Name="LV Config Write String.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Write String.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-			</Item>
 			<Item Name="IconEditorSettings.vi" Type="VI" URL="../../../User Dialogs/IconEditorSettings.vi"/>
 			<Item Name="IconFilename.ctl" Type="VI" URL="../../../Controls/IconFilename.ctl"/>
 			<Item Name="IconLibraryList.ctl" Type="VI" URL="../../../Controls/IconLibraryList.ctl"/>
