@@ -177,11 +177,11 @@
 						<Item Name="Value Change_Top or Bottom Layer.vi" Type="VI" URL="../resource/plugins/NIIconEditor/Miscellaneous/Icon Editor/Value Change_Top or Bottom Layer.vi"/>
 					</Item>
 					<Item Name="Key Down Up" Type="Folder">
-						<Item Name="Key Down Up Layers.vi" Type="VI" URL="/&lt;resource&gt;/plugins/NIIconEditor/Miscellaneous/Key Down Up/Key Down Up Layers.vi"/>
+						<Item Name="Key Down Up Layers.vi" Type="VI" URL="../resource/plugins/NIIconEditor/Miscellaneous/Key Down Up/Key Down Up Layers.vi"/>
 						<Item Name="KeyDown.vi" Type="VI" URL="../resource/plugins/NIIconEditor/Miscellaneous/Key Down Up/KeyDown.vi"/>
 						<Item Name="KeyUp.vi" Type="VI" URL="../resource/plugins/NIIconEditor/Miscellaneous/Key Down Up/KeyUp.vi"/>
 						<Item Name="Move Selected Layers.vi" Type="VI" URL="../resource/plugins/NIIconEditor/Miscellaneous/Key Down Up/Move Selected Layers.vi"/>
-						<Item Name="Process Active Data Shift Key.vi" Type="VI" URL="/&lt;resource&gt;/plugins/NIIconEditor/Miscellaneous/Key Down Up/Process Active Data Shift Key.vi"/>
+						<Item Name="Process Active Data Shift Key.vi" Type="VI" URL="../resource/plugins/NIIconEditor/Miscellaneous/Key Down Up/Process Active Data Shift Key.vi"/>
 					</Item>
 					<Item Name="Layer" Type="Folder">
 						<Item Name="DeleteLayer.vi" Type="VI" URL="../resource/plugins/NIIconEditor/Miscellaneous/Layer/DeleteLayer.vi"/>
@@ -306,10 +306,10 @@
 				<Item Name="Get Callers of Icon Editor Packed Library.vi" Type="VI" URL="/&lt;resource&gt;/plugins/NIIconEditor/Get Callers of Icon Editor Packed Library.vi"/>
 				<Item Name="Get Callers of Icon Editor Source Files.vi" Type="VI" URL="/&lt;resource&gt;/plugins/NIIconEditor/Get Callers of Icon Editor Source Files.vi"/>
 				<Item Name="Get Icon Editor Source Paths.vi" Type="VI" URL="../resource/plugins/NIIconEditor/Get Icon Editor Source Paths.vi"/>
-				<Item Name="Launch Icon Editor From String.vi" Type="VI" URL="/&lt;resource&gt;/plugins/NIIconEditor/Launch Icon Editor From String.vi"/>
+				<Item Name="Launch Icon Editor From String.vi" Type="VI" URL="../resource/plugins/NIIconEditor/Launch Icon Editor From String.vi"/>
 			</Item>
 			<Item Name="lv_icon.lvlib" Type="Library" URL="../vi.lib/LabVIEW Icon API/lv_icon/lv_icon.lvlib"/>
-			<Item Name="lv_icon.vit" Type="VI" URL="/&lt;resource&gt;/plugins/lv_icon.vit"/>
+			<Item Name="lv_icon.vit" Type="VI" URL="../resource/plugins/lv_icon.vit"/>
 			<Item Name="lv_IconEditor.lvlib" Type="Library" URL="../resource/plugins/lv_IconEditor.lvlib"/>
 			<Item Name="SAMPLE_lv_icon.vi" Type="VI" URL="../resource/plugins/SAMPLE_lv_icon.vi"/>
 		</Item>
@@ -318,7 +318,6 @@
 				<Item Name="Add Files to Archive.vi" Type="VI" URL="../Tooling/support/Add Files to Archive.vi"/>
 				<Item Name="Delete Icon Editor from LV Installation.vi" Type="VI" URL="../Tooling/support/Delete Icon Editor from LV Installation.vi"/>
 				<Item Name="Get Paths to Icon Editor Files in LV Installation.vi" Type="VI" URL="../Tooling/support/Get Paths to Icon Editor Files in LV Installation.vi"/>
-				<Item Name="Populate icon editor files.vi" Type="VI" URL="../../temp/Populate icon editor files.vi"/>
 				<Item Name="Prompt to Confirm Archival.vi" Type="VI" URL="../Tooling/support/Prompt to Confirm Archival.vi"/>
 				<Item Name="Set LibraryPaths to Include Icon Editor.vi" Type="VI" URL="../Tooling/support/Set LibraryPaths to Include Icon Editor.vi"/>
 			</Item>
@@ -370,6 +369,8 @@
 			</Item>
 			<Item Name="LabVIEW Icon API.lvlib" Type="Library" URL="../vi.lib/LabVIEW Icon API/LabVIEW Icon API.lvlib"/>
 		</Item>
+		<Item Name="IconEditorInterface.lvlib" Type="Library" URL="../Sandbox/Custom plugin interface/IconEditorInterface.lvlib"/>
+		<Item Name="Class 4.lvclass" Type="LVClass" URL="../Class 4/Class 4.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -458,7 +459,6 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
-				<Item Name="LVKeyNavTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVKeyNavTypeDef.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -617,11 +617,11 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Discover Who Invoked The Icon Editor.vi" Type="VI" URL="/&lt;resource&gt;/plugins/IconEditor/Discover Who Invoked The Icon Editor.vi"/>
+			<Item Name="Discover Who Invoked The Icon Editor.vi" Type="VI" URL="../resource/plugins/Discover Who Invoked The Icon Editor.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Icon Editor Invoker Type.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/IconEditor/Icon Editor Invoker Type.ctl"/>
+			<Item Name="Icon Editor Invoker Type.ctl" Type="VI" URL="../resource/plugins/Icon Editor Invoker Type.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -637,13 +637,14 @@
 			<Item Name="LV Config Write Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Pathlist.vi"/>
 			<Item Name="LV Config Write String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write String.vi"/>
 			<Item Name="LV Config Write.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write.vi"/>
-			<Item Name="Who Invoked Icon Editor.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/IconEditor/Who Invoked Icon Editor.ctl"/>
+			<Item Name="Who Invoked Icon Editor.ctl" Type="VI" URL="../resource/plugins/Who Invoked Icon Editor.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Editor Packed Library" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{2EFDE742-60A0-4EBA-A8BF-5DA02968166D}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Editor Packed Library</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -653,7 +654,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Tooling/Pre Build Icon Editor PPL.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C699D48A-6A0A-4A55-BF6A-D6FC254001CD}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">34</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">lv_icon.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../resource/plugins/lv_icon.lvlibp</Property>
@@ -665,7 +666,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{74BE4781-7F07-477D-BB02-6EA4381F33D3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{90EFA370-6952-4E3F-AA4B-BB8DB967B1B3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/resource\/plugins/lv_icon.lvlib</Property>

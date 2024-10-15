@@ -4,5 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="_IconEditorInterface.lvclass" Type="LVClass" URL="../_IconEditorInterface.lvclass"/>
+	<Item Name="IconEditorInterface.lvclass" Type="LVClass" URL="../IconEditorInterface.lvclass"/>
 </Library>

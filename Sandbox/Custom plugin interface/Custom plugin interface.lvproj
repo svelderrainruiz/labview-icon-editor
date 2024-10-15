@@ -12,12 +12,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="_IconEditorInterface.lvlib" Type="Library" URL="../_IconEditorInterface.lvlib"/>
+		<Item Name="Class 3.lvclass" Type="LVClass" URL="../Class 3/Class 3.lvclass"/>
+		<Item Name="IconEditorInterface.lvlib" Type="Library" URL="../IconEditorInterface.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 			</Item>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Icon Editor Interface" Type="Packed Library">
@@ -26,10 +29,11 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Icon Editor Interface</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/git/labview-icon-editor/resource/plugins</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{80DE016E-85A1-4D5E-9DD5-385E39767F4F}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IconEditorInterface.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/git/labview-icon-editor/resource/plugins/IconEditorInterface.lvlibp</Property>
@@ -41,14 +45,13 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C413819D-E475-4228-9902-92CE3CE487B8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{318E130B-B9C1-4E98-9382-695502AE2226}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/_IconEditorInterface.lvlib/_IconEditorInterface.lvclass</Property>
-				<Property Name="Source[1].newName" Type="Str">IconEditorInterface.lvclass</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/IconEditorInterface.lvlib/IconEditorInterface.lvclass</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/_IconEditorInterface.lvlib</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/IconEditorInterface.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[2].Library.LVLIBPtopLevel" Type="Bool">true</Property>
