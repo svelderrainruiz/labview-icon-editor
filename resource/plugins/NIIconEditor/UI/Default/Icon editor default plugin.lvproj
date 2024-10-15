@@ -12,6 +12,32 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="IconEditorDefaultPlugin.lvlib" Type="Library" URL="../IconEditorDefaultPlugin.lvlib"/>
+		<Item Name="IconEditorInterface.lvlibp" Type="LVLibp" URL="../../../../IconEditorInterface.lvlibp">
+			<Item Name="_IconEditorInterface.lvclass" Type="LVClass" URL="../../../../IconEditorInterface.lvlibp/_IconEditorInterface.lvclass"/>
+			<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
+			<Item Name="Check Special Tags.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
+			<Item Name="Clear Errors.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+			<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
+			<Item Name="Details Display Dialog.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
+			<Item Name="Error Code Database.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
+			<Item Name="Find Tag.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
+			<Item Name="Format Message String.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
+			<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
+			<Item Name="General Error Handler.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
+			<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
+			<Item Name="Get Text Rect.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
+			<Item Name="GetHelpDir.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
+			<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+			<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+			<Item Name="Not Found Dialog.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
+			<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
+			<Item Name="Set Bold Text.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
+			<Item Name="Set String Value.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
+			<Item Name="Simple Error Handler.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
+			<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
+			<Item Name="Three Button Dialog.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
+			<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../../IconEditorInterface.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+		</Item>
 		<Item Name="lv_icon.rtm" Type="Document" URL="../../../Support/lv_icon.rtm"/>
 		<Item Name="Sample VI.vi" Type="VI" URL="../Sample VI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -249,7 +275,6 @@
 			<Item Name="Icon Editor Init Refs.vi" Type="VI" URL="../../../Miscellaneous/Icon Editor/Icon Editor Init Refs.vi"/>
 			<Item Name="Icon Editor Invoker Type.ctl" Type="VI" URL="../../../../Icon Editor Invoker Type.ctl"/>
 			<Item Name="Icon Initialization.vi" Type="VI" URL="../../../Miscellaneous/Icon Editor/Icon Initialization.vi"/>
-			<Item Name="IconEditorInterface.lvlib" Type="Library" URL="../../Interface class/IconEditorInterface.lvlib"/>
 			<Item Name="IconEditorSettings.vi" Type="VI" URL="../../../User Dialogs/IconEditorSettings.vi"/>
 			<Item Name="IconFilename.ctl" Type="VI" URL="../../../Controls/IconFilename.ctl"/>
 			<Item Name="IconLibraryList.ctl" Type="VI" URL="../../../Controls/IconLibraryList.ctl"/>
@@ -400,7 +425,6 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{CB54108F-D14D-49CF-8D0F-F2B7807A7886}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Icon editor default plugin</Property>
-				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -408,7 +432,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/git/labview-icon-editor/resource/plugins</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4B940774-CF11-4902-865A-82F922C42B05}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IconEditorDefaultPlugin.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/git/labview-icon-editor/resource/plugins/IconEditorDefaultPlugin.lvlibp</Property>
@@ -420,7 +444,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B3F2C965-2896-4BA3-AD1D-3FCD89804A3C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7C81C46E-F0C0-464E-8C38-1107A1BF29E1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/IconEditorDefaultPlugin.lvlib</Property>
