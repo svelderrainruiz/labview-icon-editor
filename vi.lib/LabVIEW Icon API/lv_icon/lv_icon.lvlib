@@ -16,7 +16,7 @@
 		<Item Name="Adjust temporary rotate and flip rectangle.vi" Type="VI" URL="../Support/Adjust temporary rotate and flip rectangle.vi"/>
 		<Item Name="Apply Opacity.vi" Type="VI" URL="../Support/Apply Opacity.vi"/>
 		<Item Name="Apply Transparency.vi" Type="VI" URL="../Support/Apply Transparency.vi"/>
-		<Item Name="ApplyLVClassIconOverlayToVIIcon.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Support/ApplyLVClassIconOverlayToVIIcon.vi"/>
+		<Item Name="ApplyLVClassIconOverlayToVIIcon.vi" Type="VI" URL="../Support/ApplyLVClassIconOverlayToVIIcon.vi"/>
 		<Item Name="Average Grayscale of Line.vi" Type="VI" URL="../Support/Average Grayscale of Line.vi"/>
 		<Item Name="Calculate Body Text Position.vi" Type="VI" URL="../Support/Calculate Body Text Position.vi"/>
 		<Item Name="Check Color.vi" Type="VI" URL="../Support/Check Color.vi"/>
@@ -30,7 +30,7 @@
 		<Item Name="Extract Data.vi" Type="VI" URL="../Support/Extract Data.vi"/>
 		<Item Name="Fill.vi" Type="VI" URL="../Support/Fill.vi"/>
 		<Item Name="FilterEmptyLayerIcons.vi" Type="VI" URL="../Support/FilterEmptyLayerIcons.vi"/>
-		<Item Name="Find BG Color Peak.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Support/Find BG Color Peak.vi"/>
+		<Item Name="Find BG Color Peak.vi" Type="VI" URL="../Support/Find BG Color Peak.vi"/>
 		<Item Name="Find Neighbours.vi" Type="VI" URL="../Support/Find Neighbours.vi"/>
 		<Item Name="Find Start and Endpoint Body Text.vi" Type="VI" URL="../Support/Find Start and Endpoint Body Text.vi"/>
 		<Item Name="Flatten Load &amp; Unload.vi" Type="VI" URL="../Support/Flatten Load &amp; Unload.vi"/>
