@@ -65,19 +65,19 @@ Create a [GitHub discussion](https://github.com/ni/labview-icon-editor/discussio
 
 ## Report an issue
 
-Found an issue? raise a new GitHub issue and select "Bug Report"  https://github.com/ni/labview-icon-editor/issues/new/choose
+Found an issue? [raise a new GitHub issue](https://github.com/ni/labview-icon-editor/issues/new/choose) and select "Bug Report"  
 
 <a name="developafeature" />
 
 ## Develop features and bugfixes with NI and the LabVIEW community
 
-Ready to level up your game?. Collaborate with other members from the LabVIEW ecosystem that have different backgrounds and proficiency levels. You can do this by becoming a contributor and doing some dev work with us and doing feature development or solving a bug.
+Ready to level up your game?. Collaborate with people from different backgrounds and proficiency levels. You can do this by becoming a contributor.
 
 Contributions for bug resolution and feature development have certain guidelines and processes not covered on this document. More information can be found [here](https://github.com/ni/labview-icon-editor/wiki).
 
 * ## Feature development
 
-Try developing a new feature by going into the GitHub issues labeled as [Workflow: Open to contribution](https://github.com/ni/labview-icon-editor/issues?q=is%3Aissue%20label%3A%22Workflow%3A%20Open%20to%20contribution%22). Comment on the issue you want to develop so that we can create the feature branch..
+Try developing a new feature by going into the GitHub issues labeled as [Workflow: Open to contribution](https://github.com/ni/labview-icon-editor/issues?q=is%3Aissue%20label%3A%22Workflow%3A%20Open%20to%20contribution%22). Go to the GitHub issue you want to work on, and let us know via a comment.
 
 <a name="solveabug" />
 
