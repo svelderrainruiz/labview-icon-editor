@@ -57,9 +57,9 @@ Go to the [issues](https://github.com/ni/labview-icon-editor/issues) section of 
 
 ## Create a GitHub discussion
 
-Is your idea not ready yet to mark it as a concrete issue with steps to reproduce? or a feature request with enough information?
+Want things done differently? or have an idea on a feature that is not ready yet to be considered as a GitHub issue?
 
-Create a [GitHub discussion](https://github.com/ni/labview-icon-editor/discussions/new/choose) so that other member of the LabVIEW community can weigh in.
+Create a [GitHub discussion](https://github.com/ni/labview-icon-editor/discussions/new/choose) so that other member of the LabVIEW community can weigh in on your dicsussion. Discussions are usually initial stage for GitHub issues.
 
 <a name="reportanissue" />
 
@@ -69,68 +69,38 @@ Found an issue? raise a new GitHub issue and select "Bug Report"  https://github
 
 <a name="developafeature" />
 
-## Develop a feature
+## Develop features and bugfixes with NI and the LabVIEW community
+
+Ready to level up your game?. Collaborate with other members from the LabVIEW ecosystem that have different backgrounds and proficiency levels. You can do this by becoming a contributor and doing some dev work with us and doing feature development or solving a bug.
+
+Contributions for bug resolution and feature development have certain guidelines and processes not covered on this document. More information can be found [here](https://github.com/ni/labview-icon-editor/wiki).
+
+* ## Feature development
+
+Try developing a new feature by going into the GitHub issues labeled as [Workflow: Open to contribution](https://github.com/ni/labview-icon-editor/issues?q=is%3Aissue%20label%3A%22Workflow%3A%20Open%20to%20contribution%22). Comment on the issue you want to develop so that we can create the feature branch..
 
 <a name="solveabug" />
 
-## Solve a bug
+* ## Solve a bug
 
-
+Go to the GitHub issues marked as bugs that are open for contribution [here](https://github.com/ni/labview-icon-editor/issues?q=is%3Aissue%20label%3A%22Workflow%3A%20Open%20to%20contribution%22%20type%3ABug).
 
 <a name="enhancements" />
 
 # Enhancements
 
-If you have an idea or suggestion for an enhancement to the LabVIEW Icon Editor library, please use the [New Features](https://github.com/ni/labview-icon-editor/discussions/categories/new-features) discussion section. **please make sure to start a discussion about your changes.** The direction of the LabVIEW Icon Editor and which new features are added are discussed in our Discord Server and in [this GitHub discussions section](https://github.com/ni/labview-icon-editor/discussions/categories/new-features), and in the end, they are decided by the core team.
+If you have an idea or suggestion for an enhancement to the LabVIEW Icon Editor library, please use the [New Features](https://github.com/ni/labview-icon-editor/discussions/categories/new-features) discussion section. **please make sure to start a discussion about your changes.** 
 
 Talking to us first via the discussions section about the enhancement you want to build will be the most likely way to get your pull request into the library (see Our Contributing Philosophy above). We would hate to see you write code you’re proud of, just to learn that we’ve already been working on the same thing, or that we feel doesn’t fit into the core library.
 
 Once your idea has been selected for the next release of LabVIEW, a branch will be created that you can submit your pull request to.
 
-<a name="pwsh" />
+<a name="discussionnewfeature" />
 
 # Creating a discussion for a new feature
 
 The first step to start an enhancement to the icon editor is to create a discussion on the [New Features](https://github.com/ni/labview-icon-editor/discussions/categories/new-features) discussion board. You must describe the problem that made you want to have this enhancement.
 
-<a name="pwsh" />
-
-### 💫 Pull Requests
-
-When submitting a PR, please follow these guidelines to ensure clarity and ease
-of review:
- 
-1. **Title**: Start with a short, descriptive title that summarizes the change.
-2. **Description**:
-   - **Purpose**: Explain why you are making this change.
-   - **Changes Made**: Describe what changes you made and why.
-   - **Related Issues**: Reference any related issues using `#issue_number`.
-   - **Testing**: Outline how you tested your changes and any specific areas of
-     the code to focus on during review.
-   
-Please remember to sign off your commits (e.g., by using git commit -s if you
-are using the command line client). This amends your git commit message with a
-line of the form Signed-off-by: Name Lastname <name.lastmail@emailaddress.com>.
-Please include all authors of any given commit into the commit message with a
-Signed-off-by line. This indicates that you have read and signed the Developer
-Certificate of Origin (see below) and are able to legally submit your code to
-this repository.
-
 <a name="reportingissues" />
-
-### Reporting Issues
- 
-When creating an issue, please provide a detailed description to help us
-understand the problem. Here are some tips:
- 
-1. **Title**: Use a clear, concise title that summarizes the issue.
-2. **Description**:
-   - **What Happened**: Describe the issue you encountered.
-   - **Expected Behavior**: Explain what you expected to happen.
-   - **Steps to Reproduce**: List the steps necessary to reproduce the issue.
-   - **Environment**: Include relevant details about your environment (e.g.,
-     operating system, LabVIEW version, etc.).
-   - **Screenshots**: If applicable, add screenshots to clarify the issue.
-
 
 All interactions should be done with care following our [Code of Conduct](https://github.com/ni/labview-icon-editor/blob/main/CODE_OF_CONDUCT.md).
