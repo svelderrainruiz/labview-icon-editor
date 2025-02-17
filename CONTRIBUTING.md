@@ -20,27 +20,62 @@ That being said, the Icon Editor is great because of the LabVIEW users who use i
 
 # Our Contributing Philosophy
 
-This repo is managed via [git](https://git-scm.com), with the canonical upstream repository hosted on [GitHub](https://github.com/ni/labview-icon-editor) and it follows a pull-request model for development. If you wish to contribute, follow these steps:
+This repo is managed via [git](https://git-scm.com), with the canonical upstream repository hosted on [GitHub](https://github.com/ni/labview-icon-editor) and it follows a pull-request model for development.
 
-1- find an issue labeled "workflow: open for contribution"
+Feature requests are selected by NI in a joint effort with a group of members of the LabVIEW community called a "steering committee". A steering committee is a group of trusted individuals selected by the software community lead based on their background and contribution history to the NI ecosystem.
 
-2- d
+Steering committees are non-NI employees with triage roles to the repo that can vote on community driven features being part of the next LabVIEW release.
 
 <a name="collaboratewithni" />
 
-# Want to collaborate with us?
+# Collaborate with the community and NI!
 
-The things we need the most help for the library and its community are:
+See below the list of activities (order by effort level) of how you can contribute:
 
-**🐛 Bug reports:** We simply can’t catch them all. Check [existing issues](https://github.com/ni/labview-icon-editor/issues/new/choose) and discussion first, then [create a new issue](https://github.com/ni/labview-icon-editor/issues/new/choose) to tell us what’s up.
+| Contribution type | Effort level(1-10) |
+|-------------------|--------------|
+| <a href="#commentgithubissues">Comment on GitHub issues</a> |       1       |
+| <a href="#commentgithubdiscussions">Comment on GitHub discussions</a> |       1       |
+| <a href="#creategithubdiscussions">Create a GitHub discussion</a> |     2         |
+| <a href="#reportanissue">Report an issue</a> |       2       |
+| <a href="#developafeature">Develop a feature</a> |   8 to 10           |
+| <a href="#solveabug">Solve a bug</a> |   5 to 10           |
 
-**💬 Answering questions and provide feedback**: New features begin by creating a discussion on our [board](https://github.com/ni/labview-icon-editor/discussions/new?category=ideas), you can provide feedback to the new features that are planned to be added to the icon editor. This is an [example](https://github.com/ni/labview-icon-editor/discussions/55) of a discussion for a new feature request. 
+<a name="commentgithubissues" />
 
-🎬 **Work on ["Good first issue"**](https://github.com/ni/labview-icon-editor/labels/good%20first%20issue) items: You can right now assign yourself action items to finish or test a feature. Check out the [issues](https://github.com/ni/labview-icon-editor/issues) section and look for any issue labeled as [Good first issue](https://github.com/ni/labview-icon-editor/labels/good%20first%20issue).
+## Comment on GitHub issues
 
-**✏️ Edit our [Docs](https://labview-icon-editor.dev/docs/introduction/)**: Make changes in the [labview-icon-editor-docs repo](https://github.com/ni/labview-icon-editor-docs), or click the "edit this page” button that lives on every doc site.
+Go to the [issues](https://github.com/ni/labview-icon-editor/issues) section of the repo and voice your opinion on issues that other people are having. Did you found a workaround to any of the GitHub issues? we want to hear about it! 
 
-All interactions should be done with care following our [Code of Conduct](https://github.com/ni/labview-icon-editor/blob/main/CODE_OF_CONDUCT.md).
+<a name="commentgithubdiscussions" />
+
+## Comment on GitHub discussions
+
+[GitHub discussions](https://github.com/ni/labview-icon-editor/discussions) are raw ideas in the process of gathering feedback from the community before converting them into a GitHub issue. Go to the GitHub discussions and voice your opinion on ideas that will eventually be a part of the next shipping version of the Icon Editor.
+
+<a name="creategithubdiscussions" />
+
+## Create a GitHub discussion
+
+Is your idea not ready yet to mark it as a concrete issue with steps to reproduce? or a feature request with enough information?
+
+Create a [GitHub discussion](https://github.com/ni/labview-icon-editor/discussions/new/choose) so that other member of the LabVIEW community can weigh in.
+
+<a name="reportanissue" />
+
+## Report an issue
+
+Found an issue? raise a new GitHub issue and select "Bug Report"  https://github.com/ni/labview-icon-editor/issues/new/choose
+
+<a name="developafeature" />
+
+## Develop a feature
+
+<a name="solveabug" />
+
+## Solve a bug
+
+
 
 <a name="enhancements" />
 
@@ -96,3 +131,6 @@ understand the problem. Here are some tips:
    - **Environment**: Include relevant details about your environment (e.g.,
      operating system, LabVIEW version, etc.).
    - **Screenshots**: If applicable, add screenshots to clarify the issue.
+
+
+All interactions should be done with care following our [Code of Conduct](https://github.com/ni/labview-icon-editor/blob/main/CODE_OF_CONDUCT.md).
